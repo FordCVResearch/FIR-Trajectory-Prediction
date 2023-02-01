@@ -1,7 +1,7 @@
 # Trajectory Predictin Using a Multi-Stream Encoder Decoder Network
 <img width="1247" alt="fig1 2" src="https://user-images.githubusercontent.com/124192573/216125928-53b3b0e2-8f77-4750-8265-aac44f2c3abe.png">
-![image](https://user-images.githubusercontent.com/124192573/216125532-9a8dad34-bc46-46a9-bb8d-fb8ba152f94a.png)
 
+<img width="1434" alt="fig2_new" src="https://user-images.githubusercontent.com/124192573/216126468-2e8e7a1f-7569-4cab-ae61-e8f67021f38b.png">
 =======
 
 ## Requirements
