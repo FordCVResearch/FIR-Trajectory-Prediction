@@ -1,0 +1,37 @@
+{   
+    "traj_input_size": 4,
+    "traj_hidden_size": 4,
+    "traj_num_layer": 1,
+    "traj_emb_encod": false,
+    "traj_out_size": 256,
+
+    "mot_map_size": 10,
+    "mot_filter1_size": 16,
+    "mot_filter2_size": 8,
+    "mot_out_size": 512,
+    "mot_num_layer": 2,
+    "mot_use_MLP": false,
+
+    "con_image_size": 224,
+    "con_filter1_size": 32,
+    "con_filter2_size": 16,
+    "con_out_size": 1024,
+    "con_num_layer": 2,
+    "con_use_MLP": false,
+
+    "encoder_mlp": 1024,
+
+    "decoder_input_dim": 512,
+    "decoder_hidden_dim": 1024,
+    "decoder_mlp_size": 256,
+
+    "prediction_length": 30,
+    "roi_size": 10,
+
+    "exp_num": 5,
+    "cuda": true,
+    "learning_rate": 1e-3,
+    "batch_size": 2,
+    "save_summary_steps": 100,
+    "num_steps": 2500
+}
