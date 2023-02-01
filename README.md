@@ -1,5 +1,8 @@
 # Trajectory Predictin Using a Multi-Stream Encoder Decoder Network
 =======
+![image](https://user-images.githubusercontent.com/124192573/216125532-9a8dad34-bc46-46a9-bb8d-fb8ba152f94a.png)
+
+
 ## Requirements
 We recommend using python3 and a virtual env. When you're done working on the project, deactivate the virtual environment with `deactivate`.
 ```
