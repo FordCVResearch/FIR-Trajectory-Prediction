@@ -1,0 +1,12 @@
+PIL
+pandas
+numpy
+packaging
+cv2
+logging
+datetime
+tqdm
+collections
+
+torch
+torchvision

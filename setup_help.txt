@@ -1,0 +1,40 @@
+# Guid to the net_params.json
+=======
+    # Trajectory encoder config
+   "traj_input_size": 4, # trajectory encoder input size (size of each bounding box=[xc,yc,w,h])
+    "traj_hidden_size": 4, # feature dimention in the hidden state for the LSTM encoder
+    "traj_num_layer": 1, # number of LSTM stacks
+    "traj_emb_encod": false, # whether to use FC layer after the LSTM stacks 
+    "traj_out_size": 256, # size of the output FC layer after the LSTM stacks 
+
+    # Motion encoder config
+    "mot_map_size": 10, # feature map input size (each map will be 10*10*2 after the roi-pooling)
+    "mot_filter1_size": 16, # number of filters in the first ConvLSTM cell
+    "mot_filter2_size": 8, # number of filters in the second ConvLSTM cell
+    "mot_out_size": 512, # size of the output FC layer (if used before concatination)
+    "mot_num_layer": 2, # number of recurrent stacks
+    "mot_use_MLP": false, # whether to use FC layer after the LSTM stacks 
+
+    # Contextual encoder config
+    "con_image_size": 224, # image size
+    "con_filter1_size": 32, # number of filters in the first ConvLSTM cell
+    "con_filter2_size": 16, # number of filters in the second ConvLSTM cell
+    "con_out_size": 1024, # size of the output FC layer (if used before concatination)
+    "con_num_layer": 2, # number of recurrent stacks
+    "con_use_MLP": false, # whether to use FC layer after the LSTM stacks 
+
+    "encoder_mlp": 1024, # size of the concatination FC layer 
+
+    "decoder_input_dim": 512, # size of the decoder input (must be half of the "encoder_mlp") 
+    "decoder_hidden_dim": 1024, # size of the hidden state in the LSTM decoder 
+    "decoder_mlp_size": 256, # size of the FC layer before concatinating the odometery with each new input
+
+    "prediction_length": 30, # length of the prediction
+    "roi_size": 10, # desired size after roi-pooling (must be equal to the "mot_map_size") 
+
+    "exp_num": 5, # experiment number (just for log saving)
+    "cuda": true, # whether to use GPU or not
+    "learning_rate": 1e-3, # learning rate
+    "batch_size": 2, # batch size
+    "save_summary_steps": 100, # save train summary every n steps
+    "num_steps": 2500 # number of epochs in train job
