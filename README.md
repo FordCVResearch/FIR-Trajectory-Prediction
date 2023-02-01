@@ -82,4 +82,4 @@ python test.py --experiment_dir {EXP_JSON_DIR} --data_dir ${DATASET_DIR} --model
 ```
 The model weights are saved in the `${LOG_SAVE_DIR}` as the `best_acc_model`
 
-
+For more info and questions please contact Alireza Rahimpour: arahimpo@ford.com
