@@ -1,7 +1,6 @@
 # Trajectory Predictin Using a Multi-Stream Encoder Decoder Network
-![image](https://user-images.githubusercontent.com/124192573/216125532-9a8dad34-bc46-46a9-bb8d-fb8ba152f94a.png)
 <img width="1247" alt="fig1 2" src="https://user-images.githubusercontent.com/124192573/216125928-53b3b0e2-8f77-4750-8265-aac44f2c3abe.png">
-<img width="983" alt="fig3_2" src="https://user-images.githubusercontent.com/124192573/216126026-b2186a39-7fc4-4e3a-9399-55c839e6f0c1.png">
+![image](https://user-images.githubusercontent.com/124192573/216125532-9a8dad34-bc46-46a9-bb8d-fb8ba152f94a.png)
 
 =======
 
@@ -86,6 +85,7 @@ Once you've selected the best model and hyperparameters based on the performance
 python test.py --experiment_dir {EXP_JSON_DIR} --data_dir ${DATASET_DIR} --model_dir ${LOG_SAVE_DIR} 
 ```
 The model weights are saved in the `${LOG_SAVE_DIR}` as the `best_acc_model`
+<img width="983" alt="fig3_2" src="https://user-images.githubusercontent.com/124192573/216126026-b2186a39-7fc4-4e3a-9399-55c839e6f0c1.png">
 
 For more info and questions please contact:
 Alireza Rahimpour: arahimpo@ford.com or Navid Fallahinia: navid.falahinia@gmail.com 
