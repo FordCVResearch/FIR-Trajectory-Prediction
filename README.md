@@ -12,7 +12,8 @@ This repository contains the main blocks of our code.
 
 
 [FIR-based Future Trajectory Prediction in Nighttime Autonomous Driving](https://arxiv.org/pdf/2304.05345)
-IEEE IV 2023
+
+EEE Intelligent Vehicles 2023 (IEEE IV 2023)
 
 citation: 
 ```
