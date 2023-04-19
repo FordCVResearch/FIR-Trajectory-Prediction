@@ -27,7 +27,6 @@ citation:
 }
 ```
 =======
-
 ## Requirements
 We recommend using python3 and a virtual env. When you're done working on the project, deactivate the virtual environment with `deactivate`.
 ```
