@@ -94,4 +94,4 @@ The model weights are saved in the `${LOG_SAVE_DIR}` as the `best_acc_model`
 <img width="983" alt="fig3_2" src="https://user-images.githubusercontent.com/124192573/216126026-b2186a39-7fc4-4e3a-9399-55c839e6f0c1.png">
 
 For more info and questions please contact:
-Alireza Rahimpour: arahimpo@ford.com or Navid Fallahinia: navid.falahinia@gmail.com 
+Alireza Rahimpour or Navid Fallahinia: navid.falahinia@gmail.com 
