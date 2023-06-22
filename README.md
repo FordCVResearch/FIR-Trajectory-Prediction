@@ -29,5 +29,5 @@ citation:
 =======
 ## Code: 
 Please refer to this repo for the code and more details: 
-{NightVision code and details}[https://github.com/AlirezaRahimpour/NightVision_trajectory_prediction/tree/main]
+[NightVision code and details]{https://github.com/AlirezaRahimpour/NightVision_trajectory_prediction/tree/main}
 
